@@ -17,7 +17,7 @@ transform = transforms.Compose([
     transforms.Normalize((0.5, 0.5, 0.5), (0.5, 0.5, 0.5))
 ])
 
-model_path = "./model.pth"
+model_path = "/home/burakzdd/my_workspace/PyTorch_Classification/weights/model.pth"
 model = torchvision.models.resnet34(pretrained=True)
 
 for param in model.parameters():
