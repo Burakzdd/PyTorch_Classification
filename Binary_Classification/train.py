@@ -28,6 +28,7 @@ transform = transforms.Compose(
 batch_size = 8
 epochs = 30
 
+
 train_folder = "/home/burakzdd/Desktop/work/torch_classification/datasets/cat_dog_train"
 
 train_data = torchvision.datasets.ImageFolder(root = train_folder, transform=transform)
